@@ -1,0 +1,63 @@
+/* Smartphones & Tablets */
+
+@media(max-width: 500px) {
+  .main {
+    background-image: url('/img/Teaser_Logo_Vertical.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .main .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .why-pilates p {
+    
+  }
+
+  .history {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #classes {
+    height: 100vh;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container {
+    width: 400px;
+  }
+  
+  .container img{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: none;
+  }
+  
+  #classes h1{
+    display: none;
+  }
+  
+  .btn {
+    margin-top: 40px;
+  }
+}
+
+/*  Tablet */
+@media (min-width: 501px) and (max-width: 768px) {
+
+}

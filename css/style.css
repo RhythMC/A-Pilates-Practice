@@ -41,27 +41,48 @@ img {
   width: 100%;
 }
 
+
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+
+}
+
+/* Widescreen */
+@media (min-width: 1201px) {
+
+}
+
+/* Landscape */
+@media (max-height: 500px) {
+
+}
+
 /* navbar */
 
 #navbar {
   display: flex;
   position: fixed;
   top: 0px;
-  justify-content: space-evenly;
   background-color:#ED7833;
   color: white;
   height: 80px;
-  width: 100%;
-  align-items: center;
+  width: 100vw;
   opacity: .6;
 }
 
 .menu ul {
   display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .menu a {
-  padding: 10px 80px;
+  padding: 10px 10px;
   color: white;
 }
 
@@ -85,7 +106,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  min-width: 100vw;
 }
 
 
@@ -103,7 +124,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  height: 1200px;
   z-index: -1; 
 }
 
@@ -117,13 +138,15 @@ img {
 }
 
 #katies-history {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: left;
   position: relative;
+  overflow: visible;
+  max-height: 200vh;
   width: 100%;
   background-color:#fff;
   color: #333;
@@ -132,27 +155,15 @@ img {
 }
 
 .history {
-  margin: 20px 200px;
+  margin: 20px 100px;
 }
 
 .history i {
   justify-content: center;
 }
 
-.btn {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 30px;
-  background-color: #493737;
-  color: #fff;
-  border-radius: 5px;
-  margin: 0 auto;
-  font-size: 24px;
-}
+/* Classes */
 
-.btn:hover {
-  font-weight: bold;
-}
 
 #classes {
   height: 100vh;
@@ -177,6 +188,23 @@ img {
 #classes h1 {
   padding-left: 80px;
 }
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #493740;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.btn:hover {
+  font-weight: bold;
+}
+
+/* Contact Me */
 
 #contact {
   height: 30vh;
@@ -233,9 +261,4 @@ img {
   background-size: cover; 
 } */
 
-.contact {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  padding: 50px;
-}
+
