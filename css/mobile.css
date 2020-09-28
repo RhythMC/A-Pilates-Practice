@@ -1,6 +1,6 @@
 /* Smartphones & Tablets */
 
-@media(max-width: 500px) {
+@media(max-width: 500px) and (max-width: 768px){
   .main {
     background-image: url('/img/Teaser_Logo_Vertical.png');
     background-repeat: no-repeat;
@@ -18,14 +18,13 @@
     width: 100%;
   }
 
-  .why-pilates p {
-    
+  .main .logo img {
+    display: none;
   }
 
-  .history {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+  .why-pilates {
+    font-size: 24px;
+    padding: 0px 30px;
   }
 
   #classes {
@@ -56,6 +55,25 @@
     margin-top: 40px;
   }
 }
+
+@media(width: 618px) {
+  .history {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media(width: 485px) {
+  .history {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
+
 
 /*  Tablet */
 @media (min-width: 501px) and (max-width: 768px) {
