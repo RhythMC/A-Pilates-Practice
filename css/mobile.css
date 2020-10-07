@@ -56,21 +56,7 @@
   }
 }
 
-@media(width: 618px) {
-  .history {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 
-@media(width: 485px) {
-  .history {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 
 
 
