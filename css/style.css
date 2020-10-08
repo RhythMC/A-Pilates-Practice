@@ -41,23 +41,6 @@ img {
   width: 100%;
 }
 
-
-
-/* Normal */
-@media (min-width: 769px) and (max-width: 1200px) {
-
-}
-
-/* Widescreen */
-@media (min-width: 1201px) {
-
-}
-
-/* Landscape */
-@media (max-height: 500px) {
-
-}
-
 /* navbar */
 
 #navbar {
@@ -147,7 +130,7 @@ img {
   text-align: left;
   position: relative;
   overflow: visible;
-  max-height: 200vh;
+  max-height: 500vh;
   width: 100%;
   background-color:#fff;
   color: #333;
@@ -167,6 +150,7 @@ img {
 
 
 #classes {
+  margin-top: 100px;
   height: 100vh;
   display: flex;
   flex-direction: column;
