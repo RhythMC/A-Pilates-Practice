@@ -1,12 +1,18 @@
-/* Smartphones & Tablets */
+/* Smartphones */
 
 @media(max-width: 500px){
+
+  .menu ul {
+    margin: 0px 5px;
+    font-size: 14px;
+  }
+
   .main {
     background-image: url('/img/Teaser_Logo_Vertical.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: fill;
-    height: 100vh;
+    height: 800px;
     position: relative;
     z-index: -1;
   }
@@ -27,15 +33,24 @@
     padding: 0px 30px;
   }
 
+  #katies-history {
+    height: 1150px;
+    font-size: 12px;
+  }
+
+  .history {
+    height: 80%;
+  }
+
   #classes {
-    height: 100vh;
-    margin-top: 140px;
+    height: 250px;
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: white;
+    background-color:#F2EFEA;
   }
 
   .container {
@@ -49,26 +64,95 @@
   }
   
   #classes h1{
-    font-size: 24px;
+    font-size: 18px;
   }
   
   .btn {
     font-size: 18px;
     padding: 5px 15px;
   }
-}
 
+  #contact {
+    height: 100px;
+  }
 
-@media (width: 842px){
-  #katies-history {
-    height: 300vh;
+  #contact h1 {
+    font-size: 20px;
+  }
+  #contact p {
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 1.5px;
   }
 }
 
 
-/*  Tablet */
-@media (min-width: 501px) and (max-width: 768px) {
+@media (max-width: 375px){
+  .menu ul {
+    font-size: 11px;
+  }
 
+  .main {
+    background-image: url('/img/Teaser_Logo_Vertical.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .main .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  #katies-history {
+    height: 1400px;
+    font-size: 12px;
+  }
+
+  .history {
+    height: 95%;
+  }
+
+  #classes {
+    height: 190px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 360px){
+  #katies-history {
+    height: 1150px;
+    font-size: 12px;
+  }
+
+  .history {
+    height: 95%;
+  }
+
+  #classes {
+    height: 190px;
+    background-color: #F2EFEA;
+  } 
+}
+
+
+
+
+/*  START HERE! Tablet */
+
+@media (max-width: 768px) {
+  
+  .main {
+    height: 500px;
+  }
+
+  
+  
 }
 
 
