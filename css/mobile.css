@@ -85,7 +85,21 @@
     line-height: 1.5px;
   }
 }
+/* HELP! */
 
+@media(max-width: 540px) {
+  #katies-history {
+    height: 2000px;
+    font-size: 14px;
+  }
+
+  #contact {
+    margin-top: 200px;
+  }
+
+}
+
+/* Tiny Phones */
 
 @media (max-width: 375px){
   .menu ul {
@@ -140,10 +154,7 @@
   } 
 }
 
-
-
-
-/*  START HERE! Tablet */
+/* Tablet */
 
 @media (max-width: 768px) {
   
@@ -151,15 +162,50 @@
     height: 500px;
   }
 
+  .why-pilates p{
+    font-size: 18px;
+  }
   
-  
+  #katies-history {
+    height: 900px;
+  }
+
+  #classes {
+    background-color: white;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+  }
+
+  #contact {
+    height: 400px;
+    justify-content: left;
+  }
+
+  .contact h1{
+    font-size: 18px;
+    padding-top: 10px;
+    
+  } 
 }
 
+/* IPad Pro */
 
-/* Normal */
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (max-width: 1024px) {
+  .why-pilates p{
+    font-size: 20px;
+  }
 
+  #classes {
+    background-color: white;
+    width: 100%;
+  }
+
+  #contact {
+    margin-top: -110px;
+  }
 }
+
 
 /* Widescreen */
 @media (min-width: 1201px) {
