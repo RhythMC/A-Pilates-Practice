@@ -192,38 +192,70 @@ img {
   }
 }
 
+@media screen and (max-width: 466px) {
+  #katies-history {
+    height: 1200px;
+  }
+}
+
+
 .history {
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 
 .history i {
   justify-content: center;
 }
 
+/* .class-and-contact-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
 /* Classes */
 
 #classes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
   justify-content: center; 
   text-align: center;
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-color:#F2EFEA; 
   background-image: url('/img/katie-ybarra-curl-frame-no-border.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: fill;
+  z-index: -1;
 }
 
-@media screen and (max-width: 1042px){
+/* @media screen and (max-width: 1042px){
   #classes {
     background-color: white;
   }
+} */
+
+@media screen and (max-width: 934px){
+  #classes {
+    height: 400px;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  #classes {
+    height: 300px;
+  }
+}
+.h1-and-button-wrapper {
+  position: relative;
+  top: 30%;
 }
 
 #classes h1 {
+  position: relative;
   padding: 10px 20px;
 }
 
@@ -264,11 +296,15 @@ img {
   text-align: center;
   width: 100%;
   height: 200px;
-  margin-top: -20px;
   background-color:#493740;
   color: white; 
 }
 
+/* @media screen and (max-width: 934px){
+  #contact {
+    margin-top: -60px;
+  }
+} */
 
 
 
