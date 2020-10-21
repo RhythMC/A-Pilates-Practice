@@ -300,6 +300,10 @@ img {
   color: white; 
 }
 
+.contact p{
+  color: white;
+}
+
 /* @media screen and (max-width: 934px){
   #contact {
     margin-top: -60px;
