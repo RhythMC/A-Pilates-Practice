@@ -88,11 +88,11 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 800px;
+  height: 100vh;
   position: relative;
   z-index: -1;
   width: 100%;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 @media screen and (max-width: 768px){
@@ -124,7 +124,7 @@ img {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 950px;
+  height: 850px;
   z-index: -1; 
 }
 
@@ -172,31 +172,31 @@ img {
   text-align: left;
   position: relative;
   width: 100%;
-  height: 700px;
+  height: auto;
   background-color:#fff;
   color: #333;
   font-size: 16px;
   z-index: -1;
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width: 946px){
+/* @media screen and (max-width: 946px){
   #katies-history {
     height: 1000px;
   }
-}
+} */
 
 @media screen and (max-width: 636px) {
   #katies-history {
     font-size: 12px;
-    height: 800px;
   }
 }
 
-@media screen and (max-width: 466px) {
+/* @media screen and (max-width: 466px) {
   #katies-history {
     height: 1200px;
   }
-}
+} */
 
 
 .history {
